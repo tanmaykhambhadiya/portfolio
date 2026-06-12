@@ -10,6 +10,7 @@ import cssIcon from "../../assets/css-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import github from "../../assets/github.svg";
+import shopify from "../../assets/shopify.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -33,7 +34,7 @@ Throughout my journey, I have expanded my skill set from building robust web pla
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-As a quick learner and highly adaptable professional, I embrace new technologies with ease and work flexibly to align with client needs. My versatility, paired with expertise in Python, MERN stack, mobile development, Java, MySQL, and MongoDB, empowers me to approach challenges with creativity and deliver solutions that not only meet but exceed expectations.          </p>
+As a quick learner and highly adaptable professional, I embrace new technologies with ease and work flexibly to align with client needs. My versatility, paired with expertise in Python, the MERN stack, PHP, mobile development, MySQL, and MongoDB — along with hands-on experience leading teams and delivering projects on time — empowers me to approach challenges with creativity and deliver solutions that not only meet but exceed expectations.          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
@@ -82,6 +83,11 @@ As a quick learner and highly adaptable professional, I embrace new technologies
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={github} alt="github" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={shopify} alt="Shopify" />
             </ScrollAnimation>
           </div>
         </div>

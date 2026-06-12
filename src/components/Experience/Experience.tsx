@@ -15,13 +15,28 @@ export function Experience() {
               className="body"
               style={{ display: "flex", justifyContent: "center" }}
             >
+              <h3>&#123; Tech Lead &#125;</h3>
+            </div>
+            <h4 style={{ display: "flex", justifyContent: "center" }}>
+              {" "}
+              Cave Developers (Nov 2025 - Mar 2026)
+            </h4>
+
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <div
+              className="body"
+              style={{ display: "flex", justifyContent: "center" }}
+            >
               <h3>&#123; Tech Guy &#125;</h3>
             </div>
             <h4 style={{ display: "flex", justifyContent: "center" }}>
               {" "}
               Concert Circle  (Mar 2025 - Present)
             </h4>
-            
+
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="flipInX">
@@ -34,9 +49,24 @@ export function Experience() {
             </div>
             <h4 style={{ display: "flex", justifyContent: "center" }}>
               {" "}
-              SPARROW SOFTTECH (Mar 2024 - Oct 2024)
+              Sparrow Softech (May 2024 - Oct 2024)
             </h4>
-            
+
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <div
+              className="body"
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <h3>&#123; Shopify Developer &#125;</h3>
+            </div>
+            <h4 style={{ display: "flex", justifyContent: "center" }}>
+              {" "}
+              Freelance &middot; E-Commerce (2024 - Present)
+            </h4>
+
           </div>
         </ScrollAnimation>
       </div>
