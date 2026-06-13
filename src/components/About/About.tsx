@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import yashjadeja from "../../assets/yashjadejabg.png";
+import tanmay from "../../assets/tanmay.jpg";
 import reactIcon from "../../assets/react-icon.svg";
 import cIcon from "../../assets/c.svg";
 import nodeIcon from "../../assets/node-icon.svg";
@@ -94,7 +94,7 @@ As a quick learner and highly adaptable professional, I embrace new technologies
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={yashjadeja} alt="Tanmay Khambhadiya" />
+          <img src={tanmay} alt="Tanmay Khambhadiya" />
         </ScrollAnimation>
       </div>
     </Container>

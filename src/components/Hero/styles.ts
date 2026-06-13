@@ -6,6 +6,7 @@ export const Container = styled.section`
   justify-content: space-between;
   gap: 8rem;
   background: rgba(0,0,0,0);
+
   .hero-text{
     & > p{
       font-size: 1.8rem;
@@ -13,32 +14,28 @@ export const Container = styled.section`
     h1{
       font-size: 7rem;
     }
-
     h3{
-      color:var(--green);
+      color: var(--green);
       margin: 1rem 0;
     }
-
-    
     p.small-resume {
       margin-bottom: 5rem;
     }
   }
-// New added
+
   .social-media{
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-top:5rem;
-    padding-left:1rem;
+    padding-top: 5rem;
+    padding-left: 1rem;
 
-    img,span{
+    img, span{
       font-size: 3rem;
       width: 3.5rem;
     }
   }
-
 
   .button{
     margin-top: 5rem;
@@ -51,26 +48,55 @@ export const Container = styled.section`
     }
   }
 
-
   @media(max-width: 960px){
     display: block;
     margin-top: 15%;
-    .hero-text{
 
+    .hero-text{
       h1{
         font-size: 5rem;
       }
     }
-    
+
     .hero-image{
       display: none;
     }
   }
 
   @media(max-width: 600px){
-    margin-top: 35%;
+    margin-top: 30%;
+
+    .hero-text{
+      h1{
+        font-size: 4rem;
+      }
+      & > p{
+        font-size: 1.6rem;
+      }
+    }
+
+    .button{
+      padding: 1.2rem 4rem;
+    }
   }
+
   @media(max-width: 480px){
-    margin-top: 45%;
+    margin-top: 38%;
+
+    .hero-text{
+      h1{
+        font-size: 3.5rem;
+      }
+    }
+  }
+
+  @media(max-width: 360px){
+    margin-top: 50%;
+
+    .hero-text{
+      h1{
+        font-size: 3rem;
+      }
+    }
   }
 `

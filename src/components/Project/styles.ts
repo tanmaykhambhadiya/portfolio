@@ -3,12 +3,13 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 15rem;
-  
+
   h2{
     text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
   }
+
   .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,6 +27,8 @@ export const Container = styled.section`
       flex-direction: column;
       height: 100%;
       color: #FFF;
+      overflow: hidden;
+
       &:hover{
         transform: translateY(-5px);
         background-color: var(--blue);
@@ -41,20 +44,23 @@ export const Container = styled.section`
           display: flex;
           align-items: center;
           gap: 1rem;
+          flex-shrink: 0;
         }
         a > img {
           width: 5.0rem;
         }
       }
-      
+
       h3{
         margin-bottom: 2rem;
+        word-break: break-word;
       }
 
       p{
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
         text-align: justify;
+        word-break: break-word;
         a{
           color: #FFFF;
           border-bottom: 1px solid var(--green);
@@ -70,12 +76,12 @@ export const Container = styled.section`
         .tech-list{
           display: flex;
           align-items: center;
-          gap: 2rem;
+          flex-wrap: wrap;
+          gap: 1rem;
           font-size: 1.4rem;
           opacity: 0.6;
         }
       }
-
     }
   }
 
@@ -90,37 +96,12 @@ export const Container = styled.section`
       grid-template-columns: 1fr;
     }
   }
-  @media (max-width: 430px){
-    h3{
-      margin-right: 40px;
-    }
-    .projects{
-      grid-template-columns: 1fr;
-    }
-    p{
-      margin-right: 54px;
-      
-    }
-    a{
-      margin-right: 60px;
-    }
-  }
-  @media (max-width: 400px){
-  
-    h3{
-      margin-right: 60px;
-    }
-    .projects{
-      grid-template-columns: 1fr;
-    }
-    p{
-      margin-right: 90px;
-      
-    }
-    a{
-      margin-right: 90px;
-    }
-  }
 
-  
+  @media (max-width: 480px){
+    .projects .project{
+      header a > img {
+        width: 4rem;
+      }
+    }
+  }
 `
